@@ -7,7 +7,7 @@ function getDrinkByProfession(param) {
         "politician": "Your tax dollars",
         "rapper": "Cristal",
     }
-    //let prof=param.toLowerCase();
+    // let prof=param.toLowerCase();
     // console.log(prof);
     // if (prof in profession) {
     //     return profession[prof];
@@ -15,6 +15,8 @@ function getDrinkByProfession(param) {
 
     //radau toki varianta
     return profession[param.toLowerCase()] || "Beer";
+    //return profession[prof] ? profession[prof] : 'Beer';
+
 
 
 
