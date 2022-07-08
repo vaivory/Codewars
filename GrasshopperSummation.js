@@ -37,7 +37,9 @@ var summation = function (num) {
 
 
 
-    return suma;
+   // return suma;
+
+   return num* (num+1)/2;
  }
 
 
